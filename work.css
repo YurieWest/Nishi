@@ -8,8 +8,7 @@ body {
     padding-top: 100px;
     font-size: 15px;
     margin: 0; /* Ensure no extra margin around the body */
-    height: 100vh; /* Ensure body takes full viewport height */
-    overflow: hidden; /* Prevent scrolling due to background image */
+    min-height: 100vh; /* Ensure body extends to cover viewport height */
 }
 
 /* Green Button */
