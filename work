@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Work - Yurie Yoshimura</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <div id="profile" class="clearfix">
+        <h2>Past Work</h2>
+        <p>Here is a collection of my past work in media, marketing, and journalism.</p>
+
+        <div id="work-portfolio">
+            <div class="work-item">
+                <h3>Project Title 1</h3>
+                <p>Description of Project 1. Include details about your role, the scope of the project, and any media links (like articles, videos, or images).</p>
+            </div>
+            <div class="work-item">
+                <h3>Project Title 2</h3>
+                <p>Description of Project 2. Include details about your role, the scope of the project, and any media links.</p>
+            </div>
+            <!-- Add more work items as needed -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Yurie Yoshimura</p>
+    </div>
+
+    <script src="Homepage.js"></script>
+</body>
+</html>
