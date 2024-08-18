@@ -81,8 +81,7 @@ window.onload = function() {
     return;
   }
   shuffleSongs();
-  playNextSong();
-  trackTitleElement.textContent = songQueue[0]?.title || 'No track';
+  playNextSong(); // Start the first song automatically
 };
 
 // Add event listeners to buttons
