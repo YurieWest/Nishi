@@ -66,7 +66,7 @@ body {
     box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
     transition: all 0.3s ease;
     width: 100%; /* Full width of the containing box */
-    height: 100%; /* Full height of the containing box */
+    height: 200px; /* Full height of the containing box */
     text-align: center; /* Center text horizontally */
 }
 
