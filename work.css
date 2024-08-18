@@ -172,18 +172,24 @@ audio {
 }
 
 .back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px 30px;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 18px; /* Increase font size for better visibility */
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background: linear-gradient(145deg, #a3e8a1, #b8f4b0); /* Light green gradient */
-    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.3); /* Soft green shadow */
+    background: #ff007f; /* Use a solid color for better contrast */
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
     transition: all 0.3s ease;
+    width: 100%; /* Full width of the containing box */
+    height: 100%; /* Full height of the containing box */
+    text-align: center; /* Center text horizontally */
 }
 
 .back-button:hover {
-    background: linear-gradient(145deg, #b8f4b0, #a3e8a1); /* Inverse light green gradient on hover */
+    background: #ff4da6; /* Darker shade on hover */
     transform: scale(1.05);
 }
