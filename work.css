@@ -10,15 +10,6 @@ body {
     font-size: 15px;
 }
 
-#profile {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
-}
-
 #profile img {
     border-radius: 50%; /* Round profile image */
 }
@@ -129,8 +120,8 @@ audio {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
     position: relative;
     overflow: hidden; /* Ensure content doesn't overflow */
-    width: 80%; /* Width of the work item */
-    height: 200px; /* Height of the work item */
+    width: 100%; /* Full width of the container */
+    height: 200px; /* Fixed height for uniformity */
 }
 
 .work-item h3 {
@@ -175,21 +166,21 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 30px;
-    border-radius: 25px;
-    font-size: 18px; /* Increase font size for better visibility */
+    padding: 5px 15px; /* Reduced padding */
+    border-radius: 15px; /* Reduced border radius */
+    font-size: 12px; /* Reduced font size */
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background: #ff007f; /* Use a solid color for better contrast */
-    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
+    background: #a3e8a1; /* Light green color */
+    box-shadow: 0 3px 10px rgba(144, 238, 144, 0.3); /* Soft shadow */
     transition: all 0.3s ease;
-    width: 100%; /* Full width of the containing box */
-    height: 100%; /* Full height of the containing box */
+    width: 30%; /* Reduced width */
+    height: 30%; /* Reduced height */
     text-align: center; /* Center text horizontally */
 }
 
 .back-button:hover {
-    background: #ff4da6; /* Darker shade on hover */
+    background: #b8f4b0; /* Slightly lighter green on hover */
     transform: scale(1.05);
 }
