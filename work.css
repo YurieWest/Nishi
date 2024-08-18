@@ -24,7 +24,7 @@ body {
     box-shadow: 0 5px 15px rgba(144, 238, 144, 0.3);
     transition: all 0.3s ease;
     position: fixed;
-    top: 20px;
+    top: 30px; /* Lowered by 10% */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
@@ -34,6 +34,7 @@ body {
     background: linear-gradient(145deg, #b8f4b0, #a3e8a1);
     transform: scale(1.05);
 }
+
 
 /* Work Portfolio Styles */
 #work-portfolio {
