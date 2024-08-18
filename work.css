@@ -38,7 +38,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
     position: relative;
     overflow: hidden; /* Ensure content doesn't overflow */
-    width: 100%; /* Full width of the containing box */
+    width: 80%; /* Full width of the containing box */
     height: 200px; /* Height of the work item */
 }
 
@@ -65,7 +65,7 @@ body {
     border: 2px solid #ff007f; /* Border to keep the button visible */
     box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
     transition: all 0.3s ease;
-    width: 100%; /* Full width of the containing box */
+    width: 80%; /* Full width of the containing box */
     height: 200px; /* Full height of the containing box */
     text-align: center; /* Center text horizontally */
 }
