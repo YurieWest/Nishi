@@ -101,3 +101,15 @@ audio {
     background: linear-gradient(145deg, #c9f7f4, #a4d8e0);
     transform: scale(1.05);
 }
+
+/* Work Button */
+.work-button {
+    background: linear-gradient(145deg, #a3e8a1, #b8f4b0); /* Light green gradient */
+    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.3); /* Soft green shadow */
+}
+
+.work-button:hover {
+    background: linear-gradient(145deg, #b8f4b0, #a3e8a1); /* Inverse light green gradient on hover */
+    transform: scale(1.05);
+}
+
