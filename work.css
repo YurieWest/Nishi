@@ -161,3 +161,23 @@ audio {
 .tiptext:hover .description {
     display: block;
 }
+
+/* Back Button Styles */
+.back-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(145deg, #a3e8a1, #b8f4b0); /* Light green gradient */
+    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.3); /* Soft green shadow */
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background: linear-gradient(145deg, #b8f4b0, #a3e8a1); /* Inverse light green gradient on hover */
+    transform: scale(1.05);
+}
