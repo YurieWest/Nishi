@@ -78,7 +78,7 @@ audio {
     box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
 }
 
-.connect-button:hover {
+.connect-:hover {
     background: linear-gradient(145deg, #f4a6c4, #f9a1b2);
     transform: scale(1.05);
 }
@@ -156,19 +156,24 @@ audio {
 /* Back Button Styles */
 .back-button {
     position: absolute;
-    top: 0;
+    top: 10px; /* Position it close to the top */
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px 20px;
-    font-size: 16px;
+    width: 10%; /* Set the width to 10% */
+    height: 10%; /* Set the height to 10% */
+    padding: 10px; /* Adjust padding if necessary */
+    font-size: 1.5rem; /* Increase font size */
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background: none; /* No background box */
-    box-shadow: none; /* No shadow */
+    background-color: #32cd32; /* Use green color for the background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+    border-radius: 15px; /* Optional: Rounded corners */
     cursor: pointer;
 }
 
 .back-button:hover {
-    text-decoration: underline; /* Add underline on hover to indicate it's clickable */
+    background-color: #28a428; /* Darker green on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
