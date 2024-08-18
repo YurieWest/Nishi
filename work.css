@@ -31,14 +31,14 @@ body {
     margin-top: 20px;
 }
 
-.work-item {
+.work-item, .back-button-item {
     background: rgba(0, 0, 0, 0.8); /* Slightly transparent background for work items */
     border-radius: 10px; /* Rounded corners */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
     position: relative;
     overflow: hidden; /* Ensure content doesn't overflow */
-    width: 80%; /* Width of the work item */
+    width: 100%; /* Full width of the containing box */
     height: 200px; /* Height of the work item */
 }
 
@@ -76,8 +76,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 .back-button {
