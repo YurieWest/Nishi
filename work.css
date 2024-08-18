@@ -1,13 +1,15 @@
 /* Global Styles */
 body {
     color: #fff;
-    background: url(https://i.pinimg.com/originals/1b/ce/73/1bce739be7729a5f201960708ded8163.gif);
-    background-repeat: no-repeat;
+    background: url(https://i.pinimg.com/originals/1b/ce/73/1bce739be7729a5f201960708ded8163.gif) no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 100px;
     font-size: 15px;
+    margin: 0; /* Ensure no extra margin around the body */
+    height: 100vh; /* Ensure body takes full viewport height */
+    overflow: hidden; /* Prevent scrolling due to background image */
 }
 
 /* Green Button */
