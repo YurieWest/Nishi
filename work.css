@@ -152,28 +152,37 @@ audio {
 .tiptext:hover .description {
     display: block;
 }
-
 /* Back Button Styles */
-.back-button {
+.back-button-container {
     position: absolute;
-    top: 10px; /* Position it close to the top */
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 10%; /* Set the width to 10% */
-    height: 10%; /* Set the height to 10% */
-    padding: 10px; /* Adjust padding if necessary */
-    font-size: 1.5rem; /* Increase font size */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%; /* Adjust the height as needed */
+}
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(144, 238, 144, 0.3) 0px 3px 10px;
+    width: 10%; /* Adjust width and height as needed */
+    height: 10%;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 15px;
     text-decoration: none;
-    color: #fff;
-    background-color: #32cd32; /* Use green color for the background */
-    border: none; /* Remove border */
-    box-shadow: none; /* Remove shadow */
-    border-radius: 15px; /* Optional: Rounded corners */
-    cursor: pointer;
+    background: rgb(163, 232, 161);
+    transition: 0.3s;
 }
 
 .back-button:hover {
-    background-color: #28a428; /* Darker green on hover */
-    text-decoration: underline; /* Add underline on hover */
+    background: #b8f4b0; /* Hover effect */
 }
