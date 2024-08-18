@@ -4,7 +4,7 @@ const songs = [
   { title: 'Jalouse - Ecco2k', src: 'https://archive.org/download/pxe_20220407/2021%20-%20Ecco2K%20-%20PXE/03.%20Jalouse.mp3' },
   { title: 'Father Stretch My Hands Pt 1 & 2 - Kanye West', src: 'https://archive.org/download/father-stretch-my-hands-pt-1-2/Father%20Stretch%20My%20Hands%20Pt%201%20%26%202.mp3' },
   { title: 'Power - Young Thug', src: 'https://archive.org/download/YoungThug_201802/Young%20-%20Thug%20memo.mp3' },
-  { title: 'Be Quiet and Drive - Deftones', src: 'https://archive.org/download/3131BEQUIETAndDRIVE/02%20Digital%20Bath.mp3' },
+  { title: 'Be Quiet and Drive - Deftones', src: 'https://ia801403.us.archive.org/16/items/deftones-1997-around-the-fur/06%20-%20Deftones%20-%20Be%20Quiet%20And%20Drive%20%28Far%20Away%29.mp3' },
   { title: 'Dagger - Slowdive', src: 'https://archive.org/download/slowdive1/Slowdive/10%20Slowdive%20-%20Dagger.mp3' },
 ];
 
