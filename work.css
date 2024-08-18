@@ -115,9 +115,23 @@ audio {
 }
 
 /* Work Item Styles */
+#work-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between items */
+    margin-top: 20px;
+}
+
 .work-item {
-    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent background for work items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
     position: relative;
+}
+
+.work-item h3 {
+    margin-top: 0;
 }
 
 .tiptext {
