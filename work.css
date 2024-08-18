@@ -6,7 +6,7 @@ body {
     background-size: cover;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
     font-size: 15px;
 }
 
@@ -23,10 +23,11 @@ body {
     background: linear-gradient(145deg, #a3e8a1, #b8f4b0);
     box-shadow: 0 5px 15px rgba(144, 238, 144, 0.3);
     transition: all 0.3s ease;
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1000;
 }
 
 #top-button:hover {
