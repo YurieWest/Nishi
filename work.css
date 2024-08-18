@@ -88,7 +88,8 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background: #ff007f; /* Use a solid color for better contrast */
+    background: transparent; /* No background color */
+    border: 2px solid #ff007f; /* Border to keep the button visible */
     box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3); /* Soft shadow */
     transition: all 0.3s ease;
     width: 100%; /* Full width of the containing box */
@@ -97,7 +98,8 @@ body {
 }
 
 .back-button:hover {
-    background: #ff4da6; /* Darker shade on hover */
+    background: rgba(255, 105, 180, 0.1); /* Slight background on hover */
+    border-color: #ff4da6; /* Change border color on hover */
     transform: scale(1.05);
 }
 
