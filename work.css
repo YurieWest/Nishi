@@ -35,7 +35,6 @@ body {
     transform: scale(1.05);
 }
 
-
 /* Work Portfolio Styles */
 #work-portfolio {
     display: grid;
@@ -95,3 +94,29 @@ body {
     color: #fff;
 }
 
+/* Mobile Styles */
+@media (max-width: 600px) {
+    body {
+        padding-top: 80px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Slightly smaller font size for better readability */
+    }
+
+    #top-button {
+        padding: 10px 20px; /* Smaller button padding */
+        font-size: 14px; /* Smaller font size */
+    }
+
+    #work-portfolio {
+        grid-template-columns: 1fr; /* Stack items in a single column */
+        width: 90%; /* Slightly wider to fit smaller screens */
+        gap: 5%; /* Reduced gap for better fit */
+    }
+
+    .work-item {
+        height: auto; /* Auto height to accommodate variable content */
+    }
+
+    .description {
+        height: auto; /* Auto height for description box */
+    }
+}
