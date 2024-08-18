@@ -129,6 +129,8 @@ audio {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
     position: relative;
     overflow: hidden; /* Ensure content doesn't overflow */
+    width: 80%; /* Width of the work item */
+    height: 200px; /* Height of the work item */
 }
 
 .work-item h3 {
