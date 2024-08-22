@@ -6,6 +6,7 @@ const songs = [
   { title: 'Power - Young Thug', src: 'https://archive.org/download/YoungThug_201802/Young%20-%20Thug%20memo.mp3' },
   { title: 'Be Quiet and Drive - Deftones', src: 'https://ia801403.us.archive.org/16/items/deftones-1997-around-the-fur/06%20-%20Deftones%20-%20Be%20Quiet%20And%20Drive%20%28Far%20Away%29.mp3' },
   { title: 'Dagger - Slowdive', src: 'https://archive.org/download/slowdive1/Slowdive/10%20Slowdive%20-%20Dagger.mp3' },
+  { title: 'Coconut - Harry Nilsson', src: 'https://archive.org/download/NilssonSchmilsson_1971/Coconut.mp3' },
 ];
 
 // Initialize variables
