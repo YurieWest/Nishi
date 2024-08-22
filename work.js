@@ -1,14 +1,17 @@
 
 document.body.style.cursor = "url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto";
 
-// Add CSS for link hover cursor change
+
+document.body.style.cursor = "url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto";
+
 const style = document.createElement('style');
 style.innerHTML = `
-  a:hover {
-    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), auto;
+  * {
+    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), pointer;
   }
 `;
 document.head.appendChild(style);
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
