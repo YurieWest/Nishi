@@ -9,7 +9,7 @@ body {
     text-align: center;
     padding-top: 45px;
     font-size: 15px;
-    cursor: url('/cursor.cur'), auto;
+    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto;
 }
 
 #profile {
