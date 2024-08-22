@@ -8,17 +8,17 @@ const songs = [
   { title: 'Dagger - Slowdive', src: 'https://archive.org/download/slowdive1/Slowdive/10%20Slowdive%20-%20Dagger.mp3' },
   { title: 'Coconut - Harry Nilsson', src: 'https://archive.org/download/NilssonSchmilsson_1971/Coconut.mp3' },
 ];
-// Apply custom cursor globally
+
 document.body.style.cursor = "url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto";
 
-// Add CSS for link hover cursor change
 const style = document.createElement('style');
 style.innerHTML = `
-  a:hover {
-    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), auto;
+  * {
+    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), pointer;
   }
 `;
 document.head.appendChild(style);
+
 
 // The rest of your JavaScript code remains the same
 
