@@ -5,6 +5,7 @@ body, html {
     overflow: auto; /* Allow scrolling */
     background: url('https://i.pinimg.com/originals/1b/ce/73/1bce739be7729a5f201960708ded8163.gif') no-repeat center center fixed;
     background-size: cover;
+    cursor: url('/cursor.cur'), auto;
 }
 
 /* Intro Screen */
