@@ -1,3 +1,4 @@
+document.body.style.cursor = "url('/cursor.cur'), auto";
 document.addEventListener("DOMContentLoaded", () => {
   const introScreen = document.getElementById('intro-screen');
   const mainContent = document.getElementById('main-content');
