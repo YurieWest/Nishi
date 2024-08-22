@@ -10,6 +10,9 @@ body {
     padding-top: 45px;
     font-size: 15px;
     cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto;
+    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), pointer;
+}
+
 }
 
 #profile {
