@@ -10,9 +10,6 @@ body {
     padding-top: 45px;
     font-size: 15px;
     cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor.cur'), auto;
-    cursor: url('https://raw.githubusercontent.com/YurieYoshimura/west/main/cursor%20(2).cur'), pointer;
-}
-
 }
 
 #profile {
@@ -117,4 +114,3 @@ audio {
     background: linear-gradient(145deg, #b8f4b0, #a3e8a1); /* Inverse light green gradient on hover */
     transform: scale(1.05);
 }
-
